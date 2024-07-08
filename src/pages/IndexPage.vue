@@ -97,7 +97,7 @@ export default defineComponent({
     onMounted(() => {
       fetchTemperatureData();
 
-      const apiKey = "d01e00df31f81ee9e62299b36869d1f7";
+      const apiKey = "";
       const location = "Talakag, Bukidnon";
       const units = "metric"; // Change units to metric for Celsius
       const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${units}&appid=${apiKey}`;
